@@ -1,0 +1,373 @@
+body{
+    background-color: #fbfbfb;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 1100px;
+    height: 600px;
+}
+
+.benediktus{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0;
+
+
+position: static;
+width: 553.48px;
+height: 598px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(to bottom right, #5cff69, #4bffe7);
+/* background: #50FFFF; */
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.vajra{
+    display: grid;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+position: static;
+width: 553.48px;
+height: 598px;
+left: 553.48px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.764);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.full{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 75px 0 0 200px;
+    position:absolute;
+    width: 1106.96px;
+    height: 598px;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+.header-desc{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 426px;
+height: 265px;
+left: 63.74px;
+top: 166.5px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+.header-desc{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 426px;
+height: 265px;
+left: 63.74px;
+top: 166.5px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+.header-desc p{
+position: relative;
+width: 403px;
+height: 100px;
+left: 11.5px;
+top: 0px;
+font-family: 'Righteous';
+
+font-weight: bold;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+color: #000000;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px 0px 0px;
+}
+
+.belakangline{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+position: relative;
+width: 426px;
+height: 110.44px;
+right: 290px;
+bottom: 80px;
+flex: none;
+order: 1;
+flex-grow: 0;
+border-radius: 20px;
+margin: 20px 0px;
+}
+
+.garis2{
+    position: static;
+width: 129px;
+height: 0px;
+left: 148.5px;
+top: 110px;
+border: 4px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(0.2deg);
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px 0px 0px;
+}
+
+.desc{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 10px 10px 0px;
+position: static;
+width: 426px;
+height: 90px;
+left: 0px;
+top: 147.72px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+.desc p{
+position: relative;
+width: 434px;
+height: 90px;
+left: 0px;
+top: 0px;
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+text-align: left;
+margin: 20px 0px;
+}
+
+.header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+position: static;
+width: auto;
+height: 176px;
+left: 75.24px;
+top: 42.5px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+
+.judul{
+position: static;
+width: 403px;
+height: 68px;
+left: 0px;
+top: 46px;
+font-family: 'Righteous';
+font-weight: bold;
+font-size: 37px;
+line-height: 35px;
+text-align: center;
+color: rgb(0, 0, 0);
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 15px 0px;
+}
+
+.line{
+    display: flex;
+flex-direction: column;
+align-items: 3flex-start;
+padding: 0px;
+position: static;
+width: 129px;
+height: 1px;
+left: 137px;
+top: 129px;
+border-radius: 20px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 38px 0px;
+}
+
+.garis1{
+position: static;
+width: 129px;
+height: 0px;
+left: 0px;
+top: 0.5px;
+border: 4px solid rgb(93, 253, 103);
+
+flex: none;
+order: 0;
+margin: 0px;
+filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    width: 520px;
+    height: 327px;
+    left: 0px;
+    top: -40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+    line-height: 20px;
+}
+
+label{
+font-family: 'Roboto';
+
+font-weight: bold;
+font-size: 17px;
+line-height: 25px;
+color:rgb(0, 219, 15);
+font-style: italic;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 210px 0px 0px;
+}
+
+.buatkotaknya input{
+position: static;
+width:320px;
+height: 33px;
+left: 10px;
+top: 13.5px;
+margin: 0px 10px;
+margin-right:60px;
+color: black;
+background-color: rgba(255, 255, 255, 0.668);
+font-weight: bold;
+}
+
+.palabel{
+justify-content: center;
+margin-left: 55px;
+text-align: center;
+width:500px;
+height: 185px;
+}
+
+.teksbutton{
+    line-height: 0px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+    height: 50px;
+    padding: 0px;
+    left: 55px;
+    top: 30px;
+    position: relative;
+    border-radius: 50px;
+    width: 150px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(93, 253, 103);
+    border: 2px solid rgb(93, 253, 103);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.teksbutton:hover{
+    /* background: linear-gradient(to bottom center, hsl(125, 100%, 68%), #99ff00); */
+    background-color: rgb(241, 255, 227);
+}
+
+.back{
+    text-align: center;
+    line-height: 0px;
+    /* font-size: 30px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+    height: 40px;
+    padding: 0px;
+    background: linear-gradient(to right left, hsl(125, 100%, 68%), #66aa00);
+    margin: 20px 0 0 20px;
+    position: relative;
+    border-radius: 50px;
+    width: 100px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(93, 253, 103);
+    border: 2px solid white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.back:hover{
+    background-color: #fbfbfb;
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    width: 30pc;
+    color: rgb(93, 253, 103);
+    position: relative;
+    top:50px;
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+}
+
+.buatkotaknya input.nomor{
+    width: 40px;
+    position: relative;
+    height: 33px;
+    left: 331px;
+    top: 39px;
+    display: grid;
+    grid-template-columns: auto
+}
+.back a{
+    color:black;
+}
